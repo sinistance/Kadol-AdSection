@@ -1,0 +1,3 @@
+README
+
+Wordpress Plugin buat naikin CPC cuyyy...
