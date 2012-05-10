@@ -39,7 +39,7 @@ function adsection_add_button($buttons)
 // registrasi plugin
 function adsection_register($plugin_array)
 {
-    $url = trim(get_bloginfo('url'), "/")."/wp-content/plugins/kadol-adsection/editor_plugin.js";
+    $url = plugins_url( 'editor_plugin.js' , __FILE__ );
 
     $plugin_array['adsection'] = $url;
     return $plugin_array;
